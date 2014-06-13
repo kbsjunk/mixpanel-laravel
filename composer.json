@@ -1,0 +1,19 @@
+{
+    "name": "kitbs/mixpanel-laravel",
+    "description": "",
+    "authors": [{
+        "name": "KitBS",
+        "email": "mail@kitbs.com"
+    }],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "mixpanel/mixpanel-php": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kitbs\\Mixpanel": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
